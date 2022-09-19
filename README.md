@@ -128,9 +128,6 @@ example:
 samtools view bam/SLGFSK_normal_sorted.bam | head -n 5
 samtools view bam/SLGFSK-Tumor_sorted.bam | head -n 5
 
-output:
-.
-.
 10. you can get the statistics of your sorted bam files using:
 code:
 $ samtools flagstat bam/normal_sorted.bam
